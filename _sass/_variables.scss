@@ -4,20 +4,14 @@
 //
 
 // Colors
-$blue: #4183C4;
+$backgroundColor: #222222;
+$textColor: #e8e6df;
+$linkColor: #d7bb7d;
+$visitedColor: #84b7d3;
+$hoverColor: #c88f73;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// Fonts
+$textFont: Georgia, 'Times New Roman', Times, serif;
 
 // Mobile breakpoints
 @mixin mobile {

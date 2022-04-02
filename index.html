@@ -12,7 +12,15 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <footer class="footer">
+        <div class="read-more">
+          <a href="{{ site.baseurl }}{{ post.url }}">Read the article</a>
+        </div>
+        <div class="date">
+          {{ post.date | date: "%B %e, %Y" }}
+        </div>
+      </footer>
+
     </article>
   {% endfor %}
 </div>
