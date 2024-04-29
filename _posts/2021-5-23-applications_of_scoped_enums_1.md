@@ -2,7 +2,7 @@
 layout: post
 date: 2021-5-23
 title: Applications of scoped enums (part 1)
-excerpt: Overloading return type of a function
+excerpt: 'Overloading' return type of a function
 ---
 
 ## For starters

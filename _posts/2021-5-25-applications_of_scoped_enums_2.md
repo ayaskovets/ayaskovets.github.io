@@ -2,7 +2,7 @@
 layout: post
 date: 2021-5-25
 title: Applications of scoped enums (part 2)
-excerpt: Some abstractions for pattern matching in plain old C++
+excerpt: Some abstractions to mimic pattern matching in plain old C++
 ---
 
 ## Example three (C++14): pattern matching
