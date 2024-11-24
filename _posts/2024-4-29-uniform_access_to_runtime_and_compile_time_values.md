@@ -5,11 +5,11 @@ title: Uniform access to runtime and compile time values
 excerpt: With just a few lines of code
 ---
 
-While writing some of the C++20 [code](https://github.com/ayaskovets/matrix_views) related to types optional with compile-time non-type template parameters I stomped upon a rather minor but nonetheless interesting issue.
+While writing some of the C++20 [code](https://github.com/ayaskovets/matrix_views) related to NTTP I stumbled upon a rather minor but nonetheless interesting issue.
 
 ## Illustrative example
 
-In C++20 we have **std::span** with **T** and **Extent** template parameters, where extent can be either some **size_t** value known at compile time or **std::dynamic_extent** which is basically **(size_t)(-1)** that represents some runtime value.
+In C++20 we have **std::span** with **T** and **Extent** template parameters, where **Extent** can be either some **size_t** value known at compile time or **std::dynamic_extent** which is basically **(size_t)(-1)** that represents some runtime value.
 
 Suppose we have our own type-container with optionally provided compile-time size:
 
